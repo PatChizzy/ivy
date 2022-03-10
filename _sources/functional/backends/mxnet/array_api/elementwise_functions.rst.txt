@@ -13,12 +13,9 @@ Elementwise functions
    :caption: Elementwise functions
 
    elementwise_functions/bitwise_and.rst
-   elementwise_functions/ceil.rst
    elementwise_functions/isfinite.rst
    elementwise_functions/sqrt.rst
    elementwise_functions/isnan.rst
    elementwise_functions/less.rst
    elementwise_functions/logical_not.rst
-   elementwise_functions/divide.rst
-   elementwise_functions/sin.rst
 

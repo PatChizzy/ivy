@@ -12,5 +12,4 @@ Searching functions
    :maxdepth: -1
    :caption: Searching functions
 
-   searching_functions/argmax.rst
 

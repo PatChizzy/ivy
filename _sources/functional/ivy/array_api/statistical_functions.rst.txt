@@ -12,5 +12,4 @@ Statistical functions
    :maxdepth: -1
    :caption: Statistical functions
 
-   statistical_functions/min.rst
 
