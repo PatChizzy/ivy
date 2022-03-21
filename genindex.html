@@ -85,25 +85,31 @@
 <li class="toctree-l1"><a class="reference internal" href="training_a_network.html">Training a Network</a></li>
 <li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing to Ivy</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Array</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="array/array_api.html">Array api</a></li>
-<li class="toctree-l1"><a class="reference internal" href="array/conversions.html">Conversions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="array/device.html">Device</a></li>
-<li class="toctree-l1"><a class="reference internal" href="array/general.html">General</a></li>
-<li class="toctree-l1"><a class="reference internal" href="array/gradients.html">Gradients</a></li>
-<li class="toctree-l1"><a class="reference internal" href="array/image.html">Image</a></li>
-<li class="toctree-l1"><a class="reference internal" href="array/linalg.html">Linalg</a></li>
-<li class="toctree-l1"><a class="reference internal" href="array/logic.html">Logic</a></li>
-<li class="toctree-l1"><a class="reference internal" href="array/math.html">Math</a></li>
-<li class="toctree-l1"><a class="reference internal" href="array/meta.html">Meta</a></li>
-<li class="toctree-l1"><a class="reference internal" href="array/random.html">Random</a></li>
-<li class="toctree-l1"><a class="reference internal" href="array/reductions.html">Reductions</a></li>
-</ul>
 <p class="caption"><span class="caption-text">Functional</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="functional/backends.html">Backends</a></li>
-<li class="toctree-l1"><a class="reference internal" href="functional/ivy.html">Ivy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functional/ivy/activations.html">Activations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functional/ivy/compilation.html">Compilation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functional/ivy/constants.html">Constants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functional/ivy/creation.html">Creation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functional/ivy/data_type.html">Data type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functional/ivy/device.html">Device</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functional/ivy/elementwise.html">Elementwise</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functional/ivy/general.html">General</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functional/ivy/gradients.html">Gradients</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functional/ivy/image.html">Image</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functional/ivy/layers.html">Layers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functional/ivy/linear_algebra.html">Linear algebra</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functional/ivy/losses.html">Losses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functional/ivy/manipulation.html">Manipulation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functional/ivy/meta.html">Meta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functional/ivy/nest.html">Nest</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functional/ivy/norms.html">Norms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functional/ivy/random.html">Random</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functional/ivy/searching.html">Searching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functional/ivy/set.html">Set</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functional/ivy/sorting.html">Sorting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functional/ivy/statistical.html">Statistical</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functional/ivy/utility.html">Utility</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Stateful</span></p>
 <ul>
@@ -214,18 +220,35 @@
  | <a href="#U"><strong>U</strong></a>
  | <a href="#V"><strong>V</strong></a>
  | <a href="#W"><strong>W</strong></a>
- | <a href="#Z"><strong>Z</strong></a>
  
 </div>
 <h2 id="_">_</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.__init__">__init__() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.__init__">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.__init__">__init__() (ivy.container.Container method)</a>
 
       <ul>
-        <li><a href="container.html#ivy.container.MultiDevContainer.__init__">(ivy.container.MultiDevContainer method)</a>, <a href="container/MultiDevContainer.html#ivy.container.MultiDevContainer.__init__">[1]</a>
+        <li><a href="container/MultiDevContainer.html#ivy.container.MultiDevContainer.__init__">(ivy.container.MultiDevContainer method)</a>
 </li>
         <li><a href="framework_handler.html#ivy.framework_handler.ContextManager.__init__">(ivy.framework_handler.ContextManager method)</a>
+</li>
+        <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.DefaultDevice.__init__">(ivy.functional.ivy.device.DefaultDevice method)</a>
+</li>
+        <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.DevManager.__init__">(ivy.functional.ivy.device.DevManager method)</a>
+</li>
+        <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.DevMapper.__init__">(ivy.functional.ivy.device.DevMapper method)</a>, <a href="functional/ivy/device/DevMapper.html#ivy.functional.ivy.device.DevMapper.__init__">[1]</a>
+</li>
+        <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.DevMapperMultiProc.__init__">(ivy.functional.ivy.device.DevMapperMultiProc method)</a>, <a href="functional/ivy/device/DevMapperMultiProc.html#ivy.functional.ivy.device.DevMapperMultiProc.__init__">[1]</a>
+</li>
+        <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.MultiDev.__init__">(ivy.functional.ivy.device.MultiDev method)</a>
+</li>
+        <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.MultiDevItem.__init__">(ivy.functional.ivy.device.MultiDevItem method)</a>, <a href="functional/ivy/device/MultiDevItem.html#ivy.functional.ivy.device.MultiDevItem.__init__">[1]</a>
+</li>
+        <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.MultiDevIter.__init__">(ivy.functional.ivy.device.MultiDevIter method)</a>, <a href="functional/ivy/device/MultiDevIter.html#ivy.functional.ivy.device.MultiDevIter.__init__">[1]</a>
+</li>
+        <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.MultiDevNest.__init__">(ivy.functional.ivy.device.MultiDevNest method)</a>, <a href="functional/ivy/device/MultiDevNest.html#ivy.functional.ivy.device.MultiDevNest.__init__">[1]</a>
+</li>
+        <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.Profiler.__init__">(ivy.functional.ivy.device.Profiler method)</a>, <a href="functional/ivy/device/Profiler.html#ivy.functional.ivy.device.Profiler.__init__">[1]</a>
 </li>
       </ul></li>
   </ul></td>
@@ -234,85 +257,55 @@
 <h2 id="A">A</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.all_false">all_false() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.all_false">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.all_false">all_false() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.all_key_chains">all_key_chains() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.all_key_chains">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.all_key_chains">all_key_chains() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.all_true">all_true() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.all_true">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.all_true">all_true() (ivy.container.Container method)</a>
 </li>
-      <li><a href="array/conversions.html#ivy.array.conversions.args_to_ivy">args_to_ivy() (in module ivy.array.conversions)</a>, <a href="array/conversions/args_to_ivy.html#ivy.array.conversions.args_to_ivy">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.arrays_as_lists">arrays_as_lists() (ivy.container.Container method)</a>
 </li>
-      <li><a href="array/conversions.html#ivy.array.conversions.args_to_native">args_to_native() (in module ivy.array.conversions)</a>, <a href="array/conversions/args_to_native.html#ivy.array.conversions.args_to_native">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.as_arrays">as_arrays() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.arrays_as_lists">arrays_as_lists() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.arrays_as_lists">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.as_bools">as_bools() (ivy.container.Container method)</a>
 </li>
-      <li><a href="array/array_api.html#ivy.array.array_api.ArrayWithArrayAPI">ArrayWithArrayAPI (class in ivy.array.array_api)</a>
+      <li><a href="container/Container.html#ivy.container.Container.as_ones">as_ones() (ivy.container.Container method)</a>
 </li>
-      <li><a href="array/array_api/arithmetic_operators.html#ivy.array.array_api.arithmetic_operators.ArrayWithArrayAPIArithmeticOperators">ArrayWithArrayAPIArithmeticOperators (class in ivy.array.array_api.arithmetic_operators)</a>, <a href="array/array_api/arithmetic_operators/ArrayWithArrayAPIArithmeticOperators.html#ivy.array.array_api.arithmetic_operators.ArrayWithArrayAPIArithmeticOperators">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.as_random_uniform">as_random_uniform() (ivy.container.Container method)</a>
 </li>
-      <li><a href="array/array_api/array_operators.html#ivy.array.array_api.array_operators.ArrayWithArrayAPIArrayOperators">ArrayWithArrayAPIArrayOperators (class in ivy.array.array_api.array_operators)</a>, <a href="array/array_api/array_operators/ArrayWithArrayAPIArrayOperators.html#ivy.array.array_api.array_operators.ArrayWithArrayAPIArrayOperators">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.as_variables">as_variables() (ivy.container.Container method)</a>
 </li>
-      <li><a href="array/array_api/attributes.html#ivy.array.array_api.attributes.ArrayWithArrayAPIAttributes">ArrayWithArrayAPIAttributes (class in ivy.array.array_api.attributes)</a>, <a href="array/array_api/attributes/ArrayWithArrayAPIAttributes.html#ivy.array.array_api.attributes.ArrayWithArrayAPIAttributes">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.as_zeros">as_zeros() (ivy.container.Container method)</a>
 </li>
-      <li><a href="array/array_api/bitwise_operators.html#ivy.array.array_api.bitwise_operators.ArrayWithArrayAPIBitwiseOperators">ArrayWithArrayAPIBitwiseOperators (class in ivy.array.array_api.bitwise_operators)</a>, <a href="array/array_api/bitwise_operators/ArrayWithArrayAPIBitwiseOperators.html#ivy.array.array_api.bitwise_operators.ArrayWithArrayAPIBitwiseOperators">[1]</a>
-</li>
-      <li><a href="array/array_api/comparison_operators.html#ivy.array.array_api.comparison_operators.ArrayWithArrayAPIComparisonOperators">ArrayWithArrayAPIComparisonOperators (class in ivy.array.array_api.comparison_operators)</a>, <a href="array/array_api/comparison_operators/ArrayWithArrayAPIComparisonOperators.html#ivy.array.array_api.comparison_operators.ArrayWithArrayAPIComparisonOperators">[1]</a>
-</li>
-      <li><a href="array/array_api/inplace_operators.html#ivy.array.array_api.inplace_operators.ArrayWithArrayAPIInplaceOperators">ArrayWithArrayAPIInplaceOperators (class in ivy.array.array_api.inplace_operators)</a>, <a href="array/array_api/inplace_operators/ArrayWithArrayAPIInplaceOperators.html#ivy.array.array_api.inplace_operators.ArrayWithArrayAPIInplaceOperators">[1]</a>
-</li>
-      <li><a href="array/array_api/reflected_operators.html#ivy.array.array_api.reflected_operators.ArrayWithArrayAPIReflectedOperators">ArrayWithArrayAPIReflectedOperators (class in ivy.array.array_api.reflected_operators)</a>, <a href="array/array_api/reflected_operators/ArrayWithArrayAPIReflectedOperators.html#ivy.array.array_api.reflected_operators.ArrayWithArrayAPIReflectedOperators">[1]</a>
-</li>
-      <li><a href="array/device.html#ivy.array.device.ArrayWithDevice">ArrayWithDevice (class in ivy.array.device)</a>, <a href="array/device/ArrayWithDevice.html#ivy.array.device.ArrayWithDevice">[1]</a>
-</li>
-      <li><a href="array/general.html#ivy.array.general.ArrayWithGeneral">ArrayWithGeneral (class in ivy.array.general)</a>, <a href="array/general/ArrayWithGeneral.html#ivy.array.general.ArrayWithGeneral">[1]</a>
-</li>
-      <li><a href="array/gradients.html#ivy.array.gradients.ArrayWithGradients">ArrayWithGradients (class in ivy.array.gradients)</a>, <a href="array/gradients/ArrayWithGradients.html#ivy.array.gradients.ArrayWithGradients">[1]</a>
-</li>
-      <li><a href="array/image.html#ivy.array.image.ArrayWithImage">ArrayWithImage (class in ivy.array.image)</a>, <a href="array/image/ArrayWithImage.html#ivy.array.image.ArrayWithImage">[1]</a>
-</li>
-      <li><a href="array/linalg.html#ivy.array.linalg.ArrayWithLinalg">ArrayWithLinalg (class in ivy.array.linalg)</a>, <a href="array/linalg/ArrayWithLinalg.html#ivy.array.linalg.ArrayWithLinalg">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.assert_contains_sub_container">assert_contains_sub_container() (ivy.container.Container method)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="array/logic.html#ivy.array.logic.ArrayWithLogic">ArrayWithLogic (class in ivy.array.logic)</a>, <a href="array/logic/ArrayWithLogic.html#ivy.array.logic.ArrayWithLogic">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.assert_contains_sub_structure">assert_contains_sub_structure() (ivy.container.Container method)</a>
 </li>
-      <li><a href="array/math.html#ivy.array.math.ArrayWithMath">ArrayWithMath (class in ivy.array.math)</a>, <a href="array/math/ArrayWithMath.html#ivy.array.math.ArrayWithMath">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.assert_identical">assert_identical() (ivy.container.Container static method)</a>
 </li>
-      <li><a href="array/meta.html#ivy.array.meta.ArrayWithMeta">ArrayWithMeta (class in ivy.array.meta)</a>, <a href="array/meta/ArrayWithMeta.html#ivy.array.meta.ArrayWithMeta">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.assert_identical_structure">assert_identical_structure() (ivy.container.Container static method)</a>
 </li>
-      <li><a href="array/random.html#ivy.array.random.ArrayWithRandom">ArrayWithRandom (class in ivy.array.random)</a>, <a href="array/random/ArrayWithRandom.html#ivy.array.random.ArrayWithRandom">[1]</a>
+      <li><a href="container/MultiDevContainer.html#ivy.container.MultiDevContainer.at_dev">at_dev() (ivy.container.MultiDevContainer method)</a>
+
+      <ul>
+        <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.MultiDevIter.at_dev">(ivy.functional.ivy.device.MultiDevIter method)</a>, <a href="functional/ivy/device/MultiDevIter.html#ivy.functional.ivy.device.MultiDevIter.at_dev">[1]</a>
 </li>
-      <li><a href="array/reductions.html#ivy.array.reductions.ArrayWithReductions">ArrayWithReductions (class in ivy.array.reductions)</a>, <a href="array/reductions/ArrayWithReductions.html#ivy.array.reductions.ArrayWithReductions">[1]</a>
+        <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.MultiDevNest.at_dev">(ivy.functional.ivy.device.MultiDevNest method)</a>, <a href="functional/ivy/device/MultiDevNest.html#ivy.functional.ivy.device.MultiDevNest.at_dev">[1]</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.as_arrays">as_arrays() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.as_arrays">[1]</a>
+      </ul></li>
+      <li><a href="container/MultiDevContainer.html#ivy.container.MultiDevContainer.at_devs">at_devs() (ivy.container.MultiDevContainer method)</a>
+
+      <ul>
+        <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.MultiDevIter.at_devs">(ivy.functional.ivy.device.MultiDevIter method)</a>, <a href="functional/ivy/device/MultiDevIter.html#ivy.functional.ivy.device.MultiDevIter.at_devs">[1]</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.as_bools">as_bools() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.as_bools">[1]</a>
+      </ul></li>
+      <li><a href="container/Container.html#ivy.container.Container.at_key_chain">at_key_chain() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.as_ones">as_ones() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.as_ones">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.at_key_chains">at_key_chains() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.as_random_uniform">as_random_uniform() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.as_random_uniform">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.Container.as_variables">as_variables() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.as_variables">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.Container.as_zeros">as_zeros() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.as_zeros">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.Container.assert_contains_sub_container">assert_contains_sub_container() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.assert_contains_sub_container">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.Container.assert_contains_sub_structure">assert_contains_sub_structure() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.assert_contains_sub_structure">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.Container.assert_identical">assert_identical() (ivy.container.Container static method)</a>, <a href="container/Container.html#ivy.container.Container.assert_identical">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.Container.assert_identical_structure">assert_identical_structure() (ivy.container.Container static method)</a>, <a href="container/Container.html#ivy.container.Container.assert_identical_structure">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.MultiDevContainer.at_dev">at_dev() (ivy.container.MultiDevContainer method)</a>, <a href="container/MultiDevContainer.html#ivy.container.MultiDevContainer.at_dev">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.MultiDevContainer.at_devs">at_devs() (ivy.container.MultiDevContainer method)</a>, <a href="container/MultiDevContainer.html#ivy.container.MultiDevContainer.at_devs">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.Container.at_key_chain">at_key_chain() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.at_key_chain">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.Container.at_key_chains">at_key_chains() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.at_key_chains">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.Container.at_keys">at_keys() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.at_keys">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.at_keys">at_keys() (ivy.container.Container method)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -324,39 +317,41 @@
 </li>
       <li><a href="framework_handler.html#ivy.framework_handler.clear_framework_stack">clear_framework_stack() (in module ivy.framework_handler)</a>, <a href="framework_handler/clear_framework_stack.html#ivy.framework_handler.clear_framework_stack">[1]</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.clip">clip() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.clip">[1]</a>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.clear_mem_on_dev">clear_mem_on_dev() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/clear_mem_on_dev.html#ivy.functional.ivy.device.clear_mem_on_dev">[1]</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.clip_vector_norm">clip_vector_norm() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.clip_vector_norm">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.clip">clip() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.combine">combine() (ivy.container.Container static method)</a>, <a href="container/Container.html#ivy.container.Container.combine">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.clip_vector_norm">clip_vector_norm() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.common_key_chains">common_key_chains() (ivy.container.Container static method)</a>, <a href="container/Container.html#ivy.container.Container.common_key_chains">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.combine">combine() (ivy.container.Container static method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.concat">concat() (ivy.container.Container static method)</a>, <a href="container/Container.html#ivy.container.Container.concat">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.common_key_chains">common_key_chains() (ivy.container.Container static method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.config">config() (ivy.container.Container property)</a>, <a href="container/Container.html#ivy.container.Container.config">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.concat">concat() (ivy.container.Container static method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container">Container (class in ivy.container)</a>, <a href="container/Container.html#ivy.container.Container">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.config">config() (ivy.container.Container property)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.contains_sub_container">contains_sub_container() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.contains_sub_container">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container">Container (class in ivy.container)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.contains_sub_structure">contains_sub_structure() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.contains_sub_structure">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.contains_sub_container">contains_sub_container() (ivy.container.Container method)</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.contains_sub_structure">contains_sub_structure() (ivy.container.Container method)</a>
 </li>
       <li><a href="framework_handler.html#ivy.framework_handler.ContextManager">ContextManager (class in ivy.framework_handler)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.copy">copy() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.copy">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.copy">copy() (ivy.container.Container method)</a>
 </li>
       <li><a href="verbosity.html#ivy.verbosity.cprint">cprint() (in module ivy.verbosity)</a>, <a href="verbosity/cprint.html#ivy.verbosity.cprint">[1]</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.create_if_absent">create_if_absent() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.create_if_absent">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.create_if_absent">create_if_absent() (ivy.container.Container method)</a>
 </li>
       <li><a href="framework_handler.html#ivy.framework_handler.current_framework">current_framework() (in module ivy.framework_handler)</a>, <a href="framework_handler/current_framework.html#ivy.framework_handler.current_framework">[1]</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.cutoff_at_depth">cutoff_at_depth() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.cutoff_at_depth">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.cutoff_at_depth">cutoff_at_depth() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.cutoff_at_height">cutoff_at_height() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.cutoff_at_height">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.cutoff_at_height">cutoff_at_height() (ivy.container.Container method)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -364,23 +359,89 @@
 <h2 id="D">D</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.DevManager.da_tune_step">da_tune_step() (ivy.functional.ivy.device.DevManager method)</a>
+</li>
       <li><a href="debugger.html#ivy.debugger.debug_mode">debug_mode() (in module ivy.debugger)</a>, <a href="debugger/debug_mode.html#ivy.debugger.debug_mode">[1]</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.deep_copy">deep_copy() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.deep_copy">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.deep_copy">deep_copy() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.dev">dev() (ivy.container.Container property)</a>, <a href="container/Container.html#ivy.container.Container.dev">[1]</a>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.default_device">default_device() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/default_device.html#ivy.functional.ivy.device.default_device">[1]</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.dev_clone">dev_clone() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.dev_clone">[1]</a>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.DefaultDevice">DefaultDevice (class in ivy.functional.ivy.device)</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.dev">dev() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/dev.html#ivy.functional.ivy.device.dev">[1]</a>
+
+      <ul>
+        <li><a href="container/Container.html#ivy.container.Container.dev">(ivy.container.Container property)</a>
+</li>
+      </ul></li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.dev_clone">dev_clone() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/dev_clone.html#ivy.functional.ivy.device.dev_clone">[1]</a>
+
+      <ul>
+        <li><a href="container/Container.html#ivy.container.Container.dev_clone">(ivy.container.Container method)</a>
+</li>
+      </ul></li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.dev_clone_array">dev_clone_array() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/dev_clone_array.html#ivy.functional.ivy.device.dev_clone_array">[1]</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.dev_clone_iter">dev_clone_iter() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/dev_clone_iter.html#ivy.functional.ivy.device.dev_clone_iter">[1]</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.dev_clone_nest">dev_clone_nest() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/dev_clone_nest.html#ivy.functional.ivy.device.dev_clone_nest">[1]</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.dev_dist">dev_dist() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/dev_dist.html#ivy.functional.ivy.device.dev_dist">[1]</a>
+
+      <ul>
+        <li><a href="container/Container.html#ivy.container.Container.dev_dist">(ivy.container.Container method)</a>
+</li>
+      </ul></li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.dev_dist_array">dev_dist_array() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/dev_dist_array.html#ivy.functional.ivy.device.dev_dist_array">[1]</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.dev_dist_iter">dev_dist_iter() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/dev_dist_iter.html#ivy.functional.ivy.device.dev_dist_iter">[1]</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.dev_dist_nest">dev_dist_nest() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/dev_dist_nest.html#ivy.functional.ivy.device.dev_dist_nest">[1]</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.dev_from_str">dev_from_str() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/dev_from_str.html#ivy.functional.ivy.device.dev_from_str">[1]</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.dev_str">dev_str() (ivy.container.Container property)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.dev_dist">dev_dist() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.dev_dist">[1]</a>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.dev_to_str">dev_to_str() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/dev_to_str.html#ivy.functional.ivy.device.dev_to_str">[1]</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.dev_str">dev_str() (ivy.container.Container property)</a>, <a href="container/Container.html#ivy.container.Container.dev_str">[1]</a>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.dev_unify">dev_unify() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/dev_unify.html#ivy.functional.ivy.device.dev_unify">[1]</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.diff">diff() (ivy.container.Container static method)</a>, <a href="container/Container.html#ivy.container.Container.diff">[1]</a>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.dev_unify_array">dev_unify_array() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/dev_unify_array.html#ivy.functional.ivy.device.dev_unify_array">[1]</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.dtype">dtype() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.dtype">[1]</a>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.dev_unify_iter">dev_unify_iter() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/dev_unify_iter.html#ivy.functional.ivy.device.dev_unify_iter">[1]</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.dev_unify_nest">dev_unify_nest() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/dev_unify_nest.html#ivy.functional.ivy.device.dev_unify_nest">[1]</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.dev_util">dev_util() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/dev_util.html#ivy.functional.ivy.device.dev_util">[1]</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.DevClonedItem">DevClonedItem (class in ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/DevClonedItem.html#ivy.functional.ivy.device.DevClonedItem">[1]</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.DevClonedIter">DevClonedIter (class in ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/DevClonedIter.html#ivy.functional.ivy.device.DevClonedIter">[1]</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.DevClonedNest">DevClonedNest (class in ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/DevClonedNest.html#ivy.functional.ivy.device.DevClonedNest">[1]</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.DevDistItem">DevDistItem (class in ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/DevDistItem.html#ivy.functional.ivy.device.DevDistItem">[1]</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.DevDistIter">DevDistIter (class in ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/DevDistIter.html#ivy.functional.ivy.device.DevDistIter">[1]</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.DevDistNest">DevDistNest (class in ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/DevDistNest.html#ivy.functional.ivy.device.DevDistNest">[1]</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.DevManager">DevManager (class in ivy.functional.ivy.device)</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.DevMapper">DevMapper (class in ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/DevMapper.html#ivy.functional.ivy.device.DevMapper">[1]</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.DevMapperMultiProc">DevMapperMultiProc (class in ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/DevMapperMultiProc.html#ivy.functional.ivy.device.DevMapperMultiProc">[1]</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.diff">diff() (ivy.container.Container static method)</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.DevManager.dim_size">dim_size() (ivy.functional.ivy.device.DevManager property)</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.DevManager.ds_tune_step">ds_tune_step() (ivy.functional.ivy.device.DevManager method)</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.dtype">dtype() (ivy.container.Container method)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -388,21 +449,17 @@
 <h2 id="E">E</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="functional/ivy/array_api/constants.html#ivy.functional.ivy.array_api.constants.e">e (in module ivy.functional.ivy.array_api.constants)</a>
+      <li><a href="container/Container.html#ivy.container.Container.einops_rearrange">einops_rearrange() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.einops_rearrange">einops_rearrange() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.einops_rearrange">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.Container.einops_reduce">einops_reduce() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.einops_reduce">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.einops_reduce">einops_reduce() (ivy.container.Container method)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.einops_repeat">einops_repeat() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.einops_repeat">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.einops_repeat">einops_repeat() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.einsum">einsum() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.einsum">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.einsum">einsum() (ivy.container.Container method)</a>
 </li>
-      <li><a href="functional/ivy/array_api/creation_functions.html#ivy.functional.ivy.array_api.creation_functions.empty">empty() (in module ivy.functional.ivy.array_api.creation_functions)</a>, <a href="functional/ivy/array_api/creation_functions/empty.html#ivy.functional.ivy.array_api.creation_functions.empty">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.Container.expand_dims">expand_dims() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.expand_dims">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.expand_dims">expand_dims() (ivy.container.Container method)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -410,31 +467,29 @@
 <h2 id="F">F</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.find_sub_container">find_sub_container() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.find_sub_container">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.find_sub_container">find_sub_container() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.find_sub_structure">find_sub_structure() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.find_sub_structure">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.find_sub_structure">find_sub_structure() (ivy.container.Container method)</a>
 </li>
-      <li><a href="functional/ivy/array_api/data_type_functions.html#ivy.functional.ivy.array_api.data_type_functions.finfo">finfo() (in module ivy.functional.ivy.array_api.data_type_functions)</a>, <a href="functional/ivy/array_api/data_type_functions/finfo.html#ivy.functional.ivy.array_api.data_type_functions.finfo">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.flatten_key_chain">flatten_key_chain() (ivy.container.Container static method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.flatten_key_chain">flatten_key_chain() (ivy.container.Container static method)</a>, <a href="container/Container.html#ivy.container.Container.flatten_key_chain">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.flatten_key_chains">flatten_key_chains() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.flatten_key_chains">flatten_key_chains() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.flatten_key_chains">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.Container.flip">flip() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.flip">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.flip">flip() (ivy.container.Container method)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.format_key_chains">format_key_chains() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.format_key_chains">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.format_key_chains">format_key_chains() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.from_disk_as_hdf5">from_disk_as_hdf5() (ivy.container.Container static method)</a>, <a href="container/Container.html#ivy.container.Container.from_disk_as_hdf5">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.from_disk_as_hdf5">from_disk_as_hdf5() (ivy.container.Container static method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.from_disk_as_json">from_disk_as_json() (ivy.container.Container static method)</a>, <a href="container/Container.html#ivy.container.Container.from_disk_as_json">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.from_disk_as_json">from_disk_as_json() (ivy.container.Container static method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.from_disk_as_pickled">from_disk_as_pickled() (ivy.container.Container static method)</a>, <a href="container/Container.html#ivy.container.Container.from_disk_as_pickled">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.from_disk_as_pickled">from_disk_as_pickled() (ivy.container.Container static method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.from_flat_list">from_flat_list() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.from_flat_list">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.from_flat_list">from_flat_list() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.from_numpy">from_numpy() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.from_numpy">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.from_numpy">from_numpy() (ivy.container.Container method)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -442,13 +497,17 @@
 <h2 id="G">G</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.gather">gather() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.gather">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.gather">gather() (ivy.container.Container method)</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.gather_nd">gather_nd() (ivy.container.Container method)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.gather_nd">gather_nd() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.gather_nd">[1]</a>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.get_all_arrays_on_dev">get_all_arrays_on_dev() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/get_all_arrays_on_dev.html#ivy.functional.ivy.device.get_all_arrays_on_dev">[1]</a>
 </li>
       <li><a href="framework_handler.html#ivy.framework_handler.get_framework">get_framework() (in module ivy.framework_handler)</a>, <a href="framework_handler/get_framework.html#ivy.framework_handler.get_framework">[1]</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.gpu_is_available">gpu_is_available() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/gpu_is_available.html#ivy.functional.ivy.device.gpu_is_available">[1]</a>
 </li>
   </ul></td>
 </tr></table>
@@ -456,15 +515,15 @@
 <h2 id="H">H</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.h5_file_size">h5_file_size() (ivy.container.Container static method)</a>, <a href="container/Container.html#ivy.container.Container.h5_file_size">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.h5_file_size">h5_file_size() (ivy.container.Container static method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.has_key">has_key() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.has_key">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.has_key">has_key() (ivy.container.Container method)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.has_key_chain">has_key_chain() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.has_key_chain">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.has_key_chain">has_key_chain() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.has_nans">has_nans() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.has_nans">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.has_nans">has_nans() (ivy.container.Container method)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -472,164 +531,22 @@
 <h2 id="I">I</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.identical">identical() (ivy.container.Container static method)</a>, <a href="container/Container.html#ivy.container.Container.identical">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.identical">identical() (ivy.container.Container static method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.identical_array_shapes">identical_array_shapes() (ivy.container.Container static method)</a>, <a href="container/Container.html#ivy.container.Container.identical_array_shapes">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.identical_array_shapes">identical_array_shapes() (ivy.container.Container static method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.identical_configs">identical_configs() (ivy.container.Container static method)</a>, <a href="container/Container.html#ivy.container.Container.identical_configs">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.identical_configs">identical_configs() (ivy.container.Container static method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.identical_structure">identical_structure() (ivy.container.Container static method)</a>, <a href="container/Container.html#ivy.container.Container.identical_structure">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.identical_structure">identical_structure() (ivy.container.Container static method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.if_exists">if_exists() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.if_exists">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.if_exists">if_exists() (ivy.container.Container method)</a>
 </li>
-      <li><a href="functional/ivy/array_api/data_type_functions.html#ivy.functional.ivy.array_api.data_type_functions.iinfo">iinfo() (in module ivy.functional.ivy.array_api.data_type_functions)</a>, <a href="functional/ivy/array_api/data_type_functions/iinfo.html#ivy.functional.ivy.array_api.data_type_functions.iinfo">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.inplace_update">inplace_update() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.inplace_update">inplace_update() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.inplace_update">[1]</a>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.MultiDevItem.items">items() (ivy.functional.ivy.device.MultiDevItem method)</a>, <a href="functional/ivy/device/MultiDevItem.html#ivy.functional.ivy.device.MultiDevItem.items">[1]</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.ivy">ivy() (ivy.container.Container property)</a>, <a href="container/Container.html#ivy.container.Container.ivy">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.ivy">ivy() (ivy.container.Container property)</a>
 </li>
-      <li>
-    ivy.array.array_api
-
-      <ul>
-        <li><a href="array/array_api.html#module-ivy.array.array_api">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.array.array_api.arithmetic_operators
-
-      <ul>
-        <li><a href="array/array_api/arithmetic_operators.html#module-ivy.array.array_api.arithmetic_operators">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.array.array_api.array_operators
-
-      <ul>
-        <li><a href="array/array_api/array_operators.html#module-ivy.array.array_api.array_operators">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.array.array_api.attributes
-
-      <ul>
-        <li><a href="array/array_api/attributes.html#module-ivy.array.array_api.attributes">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.array.array_api.bitwise_operators
-
-      <ul>
-        <li><a href="array/array_api/bitwise_operators.html#module-ivy.array.array_api.bitwise_operators">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.array.array_api.comparison_operators
-
-      <ul>
-        <li><a href="array/array_api/comparison_operators.html#module-ivy.array.array_api.comparison_operators">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.array.array_api.inplace_operators
-
-      <ul>
-        <li><a href="array/array_api/inplace_operators.html#module-ivy.array.array_api.inplace_operators">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.array.array_api.reflected_operators
-
-      <ul>
-        <li><a href="array/array_api/reflected_operators.html#module-ivy.array.array_api.reflected_operators">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.array.conversions
-
-      <ul>
-        <li><a href="array/conversions.html#module-ivy.array.conversions">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.array.device
-
-      <ul>
-        <li><a href="array/device.html#module-ivy.array.device">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.array.general
-
-      <ul>
-        <li><a href="array/general.html#module-ivy.array.general">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.array.gradients
-
-      <ul>
-        <li><a href="array/gradients.html#module-ivy.array.gradients">module</a>
-</li>
-      </ul></li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li>
-    ivy.array.image
-
-      <ul>
-        <li><a href="array/image.html#module-ivy.array.image">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.array.linalg
-
-      <ul>
-        <li><a href="array/linalg.html#module-ivy.array.linalg">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.array.logic
-
-      <ul>
-        <li><a href="array/logic.html#module-ivy.array.logic">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.array.math
-
-      <ul>
-        <li><a href="array/math.html#module-ivy.array.math">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.array.meta
-
-      <ul>
-        <li><a href="array/meta.html#module-ivy.array.meta">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.array.random
-
-      <ul>
-        <li><a href="array/random.html#module-ivy.array.random">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.array.reductions
-
-      <ul>
-        <li><a href="array/reductions.html#module-ivy.array.reductions">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.container
-
-      <ul>
-        <li><a href="container.html#module-ivy.container">module</a>
-</li>
-      </ul></li>
       <li>
     ivy.debugger
 
@@ -637,6 +554,8 @@
         <li><a href="debugger.html#module-ivy.debugger">module</a>
 </li>
       </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li>
     ivy.framework_handler
 
@@ -652,31 +571,10 @@
 </li>
       </ul></li>
       <li>
-    ivy.functional.ivy.array_api.constants
+    ivy.functional.ivy.device
 
       <ul>
-        <li><a href="functional/ivy/array_api/constants.html#module-ivy.functional.ivy.array_api.constants">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.functional.ivy.array_api.creation_functions
-
-      <ul>
-        <li><a href="functional/ivy/array_api/creation_functions.html#module-ivy.functional.ivy.array_api.creation_functions">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.functional.ivy.array_api.data_type_functions
-
-      <ul>
-        <li><a href="functional/ivy/array_api/data_type_functions.html#module-ivy.functional.ivy.array_api.data_type_functions">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.functional.ivy.array_api.data_types
-
-      <ul>
-        <li><a href="functional/ivy/array_api/data_types.html#module-ivy.functional.ivy.array_api.data_types">module</a>
+        <li><a href="functional/ivy/device.html#module-ivy.functional.ivy.device">module</a>
 </li>
       </ul></li>
       <li>
@@ -692,7 +590,11 @@
 <h2 id="K">K</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.key_chains_containing">key_chains_containing() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.key_chains_containing">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.key_chains_containing">key_chains_containing() (ivy.container.Container method)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.MultiDevItem.keys">keys() (ivy.functional.ivy.device.MultiDevItem method)</a>, <a href="functional/ivy/device/MultiDevItem.html#ivy.functional.ivy.device.MultiDevItem.keys">[1]</a>
 </li>
   </ul></td>
 </tr></table>
@@ -700,11 +602,11 @@
 <h2 id="L">L</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.list_join">list_join() (ivy.container.Container static method)</a>, <a href="container/Container.html#ivy.container.Container.list_join">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.list_join">list_join() (ivy.container.Container static method)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.list_stack">list_stack() (ivy.container.Container static method)</a>, <a href="container/Container.html#ivy.container.Container.list_stack">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.list_stack">list_stack() (ivy.container.Container static method)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -712,84 +614,54 @@
 <h2 id="M">M</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.map">map() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.map">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.map">map() (ivy.container.Container method)</a>
+
+      <ul>
+        <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.DevManager.map">(ivy.functional.ivy.device.DevManager method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.map_conts">map_conts() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.map_conts">[1]</a>
+        <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.DevMapper.map">(ivy.functional.ivy.device.DevMapper method)</a>, <a href="functional/ivy/device/DevMapper.html#ivy.functional.ivy.device.DevMapper.map">[1]</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.matrix_norm">matrix_norm() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.matrix_norm">[1]</a>
+      </ul></li>
+      <li><a href="container/Container.html#ivy.container.Container.map_conts">map_conts() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.max_depth">max_depth() (ivy.container.Container property)</a>, <a href="container/Container.html#ivy.container.Container.max_depth">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.matrix_norm">matrix_norm() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.maximum">maximum() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.maximum">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.max_depth">max_depth() (ivy.container.Container property)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.minimum">minimum() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.minimum">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.maximum">maximum() (ivy.container.Container method)</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.mean">mean() (ivy.container.Container method)</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.minimum">minimum() (ivy.container.Container method)</a>
 </li>
       <li>
     module
 
       <ul>
-        <li><a href="array/array_api.html#module-ivy.array.array_api">ivy.array.array_api</a>
-</li>
-        <li><a href="array/array_api/arithmetic_operators.html#module-ivy.array.array_api.arithmetic_operators">ivy.array.array_api.arithmetic_operators</a>
-</li>
-        <li><a href="array/array_api/array_operators.html#module-ivy.array.array_api.array_operators">ivy.array.array_api.array_operators</a>
-</li>
-        <li><a href="array/array_api/attributes.html#module-ivy.array.array_api.attributes">ivy.array.array_api.attributes</a>
-</li>
-        <li><a href="array/array_api/bitwise_operators.html#module-ivy.array.array_api.bitwise_operators">ivy.array.array_api.bitwise_operators</a>
-</li>
-        <li><a href="array/array_api/comparison_operators.html#module-ivy.array.array_api.comparison_operators">ivy.array.array_api.comparison_operators</a>
-</li>
-        <li><a href="array/array_api/inplace_operators.html#module-ivy.array.array_api.inplace_operators">ivy.array.array_api.inplace_operators</a>
-</li>
-        <li><a href="array/array_api/reflected_operators.html#module-ivy.array.array_api.reflected_operators">ivy.array.array_api.reflected_operators</a>
-</li>
-        <li><a href="array/conversions.html#module-ivy.array.conversions">ivy.array.conversions</a>
-</li>
-        <li><a href="array/device.html#module-ivy.array.device">ivy.array.device</a>
-</li>
-        <li><a href="array/general.html#module-ivy.array.general">ivy.array.general</a>
-</li>
-        <li><a href="array/gradients.html#module-ivy.array.gradients">ivy.array.gradients</a>
-</li>
-        <li><a href="array/image.html#module-ivy.array.image">ivy.array.image</a>
-</li>
-        <li><a href="array/linalg.html#module-ivy.array.linalg">ivy.array.linalg</a>
-</li>
-        <li><a href="array/logic.html#module-ivy.array.logic">ivy.array.logic</a>
-</li>
-        <li><a href="array/math.html#module-ivy.array.math">ivy.array.math</a>
-</li>
-        <li><a href="array/meta.html#module-ivy.array.meta">ivy.array.meta</a>
-</li>
-        <li><a href="array/random.html#module-ivy.array.random">ivy.array.random</a>
-</li>
-        <li><a href="array/reductions.html#module-ivy.array.reductions">ivy.array.reductions</a>
-</li>
-        <li><a href="container.html#module-ivy.container">ivy.container</a>
-</li>
         <li><a href="debugger.html#module-ivy.debugger">ivy.debugger</a>
 </li>
         <li><a href="framework_handler.html#module-ivy.framework_handler">ivy.framework_handler</a>
 </li>
         <li><a href="func_wrapper.html#module-ivy.func_wrapper">ivy.func_wrapper</a>
 </li>
-        <li><a href="functional/ivy/array_api/constants.html#module-ivy.functional.ivy.array_api.constants">ivy.functional.ivy.array_api.constants</a>
-</li>
-        <li><a href="functional/ivy/array_api/creation_functions.html#module-ivy.functional.ivy.array_api.creation_functions">ivy.functional.ivy.array_api.creation_functions</a>
-</li>
-        <li><a href="functional/ivy/array_api/data_type_functions.html#module-ivy.functional.ivy.array_api.data_type_functions">ivy.functional.ivy.array_api.data_type_functions</a>
-</li>
-        <li><a href="functional/ivy/array_api/data_types.html#module-ivy.functional.ivy.array_api.data_types">ivy.functional.ivy.array_api.data_types</a>
+        <li><a href="functional/ivy/device.html#module-ivy.functional.ivy.device">ivy.functional.ivy.device</a>
 </li>
         <li><a href="verbosity.html#module-ivy.verbosity">ivy.verbosity</a>
 </li>
       </ul></li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.multi_map">multi_map() (ivy.container.Container static method)</a>, <a href="container/Container.html#ivy.container.Container.multi_map">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.multi_map">multi_map() (ivy.container.Container static method)</a>
 </li>
-      <li><a href="container.html#ivy.container.MultiDevContainer">MultiDevContainer (class in ivy.container)</a>, <a href="container/MultiDevContainer.html#ivy.container.MultiDevContainer">[1]</a>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.MultiDev">MultiDev (class in ivy.functional.ivy.device)</a>
+</li>
+      <li><a href="container/MultiDevContainer.html#ivy.container.MultiDevContainer">MultiDevContainer (class in ivy.container)</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.MultiDevItem">MultiDevItem (class in ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/MultiDevItem.html#ivy.functional.ivy.device.MultiDevItem">[1]</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.MultiDevIter">MultiDevIter (class in ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/MultiDevIter.html#ivy.functional.ivy.device.MultiDevIter">[1]</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.MultiDevNest">MultiDevNest (class in ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/MultiDevNest.html#ivy.functional.ivy.device.MultiDevNest">[1]</a>
 </li>
   </ul></td>
 </tr></table>
@@ -797,11 +669,15 @@
 <h2 id="N">N</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="functional/ivy/array_api/constants.html#ivy.functional.ivy.array_api.constants.nan">nan (in module ivy.functional.ivy.array_api.constants)</a>
+      <li><a href="container/Container.html#ivy.container.Container.num_arrays">num_arrays() (ivy.container.Container method)</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.num_arrays_on_dev">num_arrays_on_dev() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/num_arrays_on_dev.html#ivy.functional.ivy.device.num_arrays_on_dev">[1]</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.num_arrays">num_arrays() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.num_arrays">[1]</a>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.num_cpu_cores">num_cpu_cores() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/num_cpu_cores.html#ivy.functional.ivy.device.num_cpu_cores">[1]</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.num_gpus">num_gpus() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/num_gpus.html#ivy.functional.ivy.device.num_gpus">[1]</a>
 </li>
   </ul></td>
 </tr></table>
@@ -809,15 +685,11 @@
 <h2 id="O">O</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="functional/ivy/array_api/creation_functions.html#ivy.functional.ivy.array_api.creation_functions.ones">ones() (in module ivy.functional.ivy.array_api.creation_functions)</a>, <a href="functional/ivy/array_api/creation_functions/ones.html#ivy.functional.ivy.array_api.creation_functions.ones">[1]</a>
-</li>
-      <li><a href="functional/ivy/array_api/creation_functions.html#ivy.functional.ivy.array_api.creation_functions.ones_like">ones_like() (in module ivy.functional.ivy.array_api.creation_functions)</a>, <a href="functional/ivy/array_api/creation_functions/ones_like.html#ivy.functional.ivy.array_api.creation_functions.ones_like">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.overwrite_at_key_chain">overwrite_at_key_chain() (ivy.container.Container method)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.overwrite_at_key_chain">overwrite_at_key_chain() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.overwrite_at_key_chain">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.Container.overwrite_at_key_chains">overwrite_at_key_chains() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.overwrite_at_key_chains">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.overwrite_at_key_chains">overwrite_at_key_chains() (ivy.container.Container method)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -825,21 +697,27 @@
 <h2 id="P">P</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="functional/ivy/array_api/constants.html#ivy.functional.ivy.array_api.constants.pi">pi (in module ivy.functional.ivy.array_api.constants)</a>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.percent_used_mem_on_dev">percent_used_mem_on_dev() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/percent_used_mem_on_dev.html#ivy.functional.ivy.device.percent_used_mem_on_dev">[1]</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.prune_empty">prune_empty() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.prune_empty">[1]</a>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.print_all_arrays_on_dev">print_all_arrays_on_dev() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/print_all_arrays_on_dev.html#ivy.functional.ivy.device.print_all_arrays_on_dev">[1]</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.prune_key_chain">prune_key_chain() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.prune_key_chain">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.prod">prod() (ivy.container.Container method)</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.Profiler">Profiler (class in ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/Profiler.html#ivy.functional.ivy.device.Profiler">[1]</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.prune_empty">prune_empty() (ivy.container.Container method)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.prune_key_chains">prune_key_chains() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.prune_key_chains">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.prune_key_chain">prune_key_chain() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.prune_key_from_key_chains">prune_key_from_key_chains() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.prune_key_from_key_chains">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.prune_key_chains">prune_key_chains() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.prune_keys">prune_keys() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.prune_keys">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.prune_key_from_key_chains">prune_key_from_key_chains() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.prune_keys_from_key_chains">prune_keys_from_key_chains() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.prune_keys_from_key_chains">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.prune_keys">prune_keys() (ivy.container.Container method)</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.prune_keys_from_key_chains">prune_keys_from_key_chains() (ivy.container.Container method)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -847,37 +725,29 @@
 <h2 id="R">R</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.reduce">reduce() (ivy.container.Container static method)</a>, <a href="container/Container.html#ivy.container.Container.reduce">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.reduce">reduce() (ivy.container.Container static method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.reduce_max">reduce_max() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.reduce_max">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.reduce_max">reduce_max() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.reduce_mean">reduce_mean() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.reduce_mean">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.reduce_min">reduce_min() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.reduce_min">reduce_min() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.reduce_min">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.remove_key_length_limit">remove_key_length_limit() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.reduce_prod">reduce_prod() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.reduce_prod">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.Container.reduce_std">reduce_std() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.reduce_std">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.Container.reduce_sum">reduce_sum() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.reduce_sum">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.remove_print_limit">remove_print_limit() (ivy.container.Container method)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.reduce_var">reduce_var() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.reduce_var">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.repeat">repeat() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.remove_key_length_limit">remove_key_length_limit() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.remove_key_length_limit">[1]</a>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.DevManager.repeated_config_check">repeated_config_check() (ivy.functional.ivy.device.DevManager method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.remove_print_limit">remove_print_limit() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.remove_print_limit">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.reshape">reshape() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.repeat">repeat() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.repeat">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.reshape_like">reshape_like() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.reshape">reshape() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.reshape">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.restructure">restructure() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.reshape_like">reshape_like() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.reshape_like">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.Container.restructure">restructure() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.restructure">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.Container.restructure_key_chains">restructure_key_chains() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.restructure_key_chains">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.restructure_key_chains">restructure_key_chains() (ivy.container.Container method)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -885,57 +755,77 @@
 <h2 id="S">S</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.set_at_key_chain">set_at_key_chain() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.set_at_key_chain">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.set_at_key_chain">set_at_key_chain() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.set_at_key_chains">set_at_key_chains() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.set_at_key_chains">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.set_at_key_chains">set_at_key_chains() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.set_at_keys">set_at_keys() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.set_at_keys">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.set_at_keys">set_at_keys() (ivy.container.Container method)</a>
 </li>
       <li><a href="debugger.html#ivy.debugger.set_breakpoint_debug_mode">set_breakpoint_debug_mode() (in module ivy.debugger)</a>, <a href="debugger/set_breakpoint_debug_mode.html#ivy.debugger.set_breakpoint_debug_mode">[1]</a>
 </li>
       <li><a href="debugger.html#ivy.debugger.set_debug_mode">set_debug_mode() (in module ivy.debugger)</a>, <a href="debugger/set_debug_mode.html#ivy.debugger.set_debug_mode">[1]</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.set_default_device">set_default_device() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/set_default_device.html#ivy.functional.ivy.device.set_default_device">[1]</a>
 </li>
       <li><a href="debugger.html#ivy.debugger.set_exception_debug_mode">set_exception_debug_mode() (in module ivy.debugger)</a>, <a href="debugger/set_exception_debug_mode.html#ivy.debugger.set_exception_debug_mode">[1]</a>
 </li>
       <li><a href="framework_handler.html#ivy.framework_handler.set_framework">set_framework() (in module ivy.framework_handler)</a>, <a href="framework_handler/set_framework.html#ivy.framework_handler.set_framework">[1]</a>
 
       <ul>
-        <li><a href="container.html#ivy.container.Container.set_framework">(ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.set_framework">[1]</a>
+        <li><a href="container/Container.html#ivy.container.Container.set_framework">(ivy.container.Container method)</a>
 </li>
       </ul></li>
-      <li><a href="container.html#ivy.container.Container.set_ivy_backend">set_ivy_backend() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.set_ivy_backend">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.set_ivy_backend">set_ivy_backend() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.shape">shape() (ivy.container.Container property)</a>, <a href="container/Container.html#ivy.container.Container.shape">[1]</a>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.set_split_factor">set_split_factor() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/set_split_factor.html#ivy.functional.ivy.device.set_split_factor">[1]</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.shapes">shapes() (ivy.container.Container property)</a>, <a href="container/Container.html#ivy.container.Container.shapes">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.shape">shape() (ivy.container.Container property)</a>
+
+      <ul>
+        <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.MultiDevItem.shape">(ivy.functional.ivy.device.MultiDevItem property)</a>, <a href="functional/ivy/device/MultiDevItem.html#ivy.functional.ivy.device.MultiDevItem.shape">[1]</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.show">show() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.show">[1]</a>
+      </ul></li>
+      <li><a href="container/Container.html#ivy.container.Container.shapes">shapes() (ivy.container.Container property)</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.show">show() (ivy.container.Container method)</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.show_sub_container">show_sub_container() (ivy.container.Container method)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.show_sub_container">show_sub_container() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.show_sub_container">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.shuffle">shuffle() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.shuffle">shuffle() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.shuffle">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.shuffle_h5_file">shuffle_h5_file() (ivy.container.Container static method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.shuffle_h5_file">shuffle_h5_file() (ivy.container.Container static method)</a>, <a href="container/Container.html#ivy.container.Container.shuffle_h5_file">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.size_ordered_arrays">size_ordered_arrays() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.size_ordered_arrays">size_ordered_arrays() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.size_ordered_arrays">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.slice_keys">slice_keys() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.slice_keys">slice_keys() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.slice_keys">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.slice_via_key">slice_via_key() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.slice_via_key">slice_via_key() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.slice_via_key">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.sort_by_key">sort_by_key() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.sort_by_key">sort_by_key() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.sort_by_key">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.split">split() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.split">split() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.split">[1]</a>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.split_factor">split_factor() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/split_factor.html#ivy.functional.ivy.device.split_factor">[1]</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.stack">stack() (ivy.container.Container static method)</a>, <a href="container/Container.html#ivy.container.Container.stack">[1]</a>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.split_func_call">split_func_call() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/split_func_call.html#ivy.functional.ivy.device.split_func_call">[1]</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.stop_gradients">stop_gradients() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.stop_gradients">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.stack">stack() (ivy.container.Container static method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.structural_diff">structural_diff() (ivy.container.Container static method)</a>, <a href="container/Container.html#ivy.container.Container.structural_diff">[1]</a>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.Profiler.start">start() (ivy.functional.ivy.device.Profiler method)</a>, <a href="functional/ivy/device/Profiler.html#ivy.functional.ivy.device.Profiler.start">[1]</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.swapaxes">swapaxes() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.swapaxes">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.std">std() (ivy.container.Container method)</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.Profiler.stop">stop() (ivy.functional.ivy.device.Profiler method)</a>, <a href="functional/ivy/device/Profiler.html#ivy.functional.ivy.device.Profiler.stop">[1]</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.stop_gradients">stop_gradients() (ivy.container.Container method)</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.structural_diff">structural_diff() (ivy.container.Container static method)</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.sum">sum() (ivy.container.Container method)</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.swapaxes">swapaxes() (ivy.container.Container method)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -943,51 +833,49 @@
 <h2 id="T">T</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.to_dev">to_dev() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.to_dev">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.Container.to_dict">to_dict() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.to_dict">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.Container.to_disk_as_hdf5">to_disk_as_hdf5() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.to_disk_as_hdf5">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.Container.to_disk_as_json">to_disk_as_json() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.to_disk_as_json">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.Container.to_disk_as_pickled">to_disk_as_pickled() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.to_disk_as_pickled">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.Container.to_flat_list">to_flat_list() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.to_flat_list">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.Container.to_iterator">to_iterator() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.to_iterator">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.Container.to_iterator_keys">to_iterator_keys() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.to_iterator_keys">[1]</a>
-</li>
-      <li><a href="container.html#ivy.container.Container.to_iterator_values">to_iterator_values() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.to_iterator_values">[1]</a>
-</li>
-      <li><a href="array/conversions.html#ivy.array.conversions.to_ivy">to_ivy() (in module ivy.array.conversions)</a>, <a href="array/conversions/to_ivy.html#ivy.array.conversions.to_ivy">[1]</a>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.to_dev">to_dev() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/to_dev.html#ivy.functional.ivy.device.to_dev">[1]</a>
 
       <ul>
-        <li><a href="container.html#ivy.container.Container.to_ivy">(ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.to_ivy">[1]</a>
+        <li><a href="container/Container.html#ivy.container.Container.to_dev">(ivy.container.Container method)</a>
 </li>
       </ul></li>
-      <li><a href="container.html#ivy.container.Container.to_jsonable">to_jsonable() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.to_jsonable">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.to_dict">to_dict() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.to_list">to_list() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.to_list">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.to_disk_as_hdf5">to_disk_as_hdf5() (ivy.container.Container method)</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.to_disk_as_json">to_disk_as_json() (ivy.container.Container method)</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.to_disk_as_pickled">to_disk_as_pickled() (ivy.container.Container method)</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.to_flat_list">to_flat_list() (ivy.container.Container method)</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.to_iterator">to_iterator() (ivy.container.Container method)</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.to_iterator_keys">to_iterator_keys() (ivy.container.Container method)</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.to_iterator_values">to_iterator_values() (ivy.container.Container method)</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.to_ivy">to_ivy() (ivy.container.Container method)</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.to_jsonable">to_jsonable() (ivy.container.Container method)</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.to_list">to_list() (ivy.container.Container method)</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.to_multi_dev">to_multi_dev() (ivy.container.Container method)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.to_multi_dev">to_multi_dev() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.to_multi_dev">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.to_native">to_native() (ivy.container.Container method)</a>
 </li>
-      <li><a href="array/conversions.html#ivy.array.conversions.to_native">to_native() (in module ivy.array.conversions)</a>, <a href="array/conversions/to_native.html#ivy.array.conversions.to_native">[1]</a>
-
-      <ul>
-        <li><a href="container.html#ivy.container.Container.to_native">(ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.to_native">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.to_numpy">to_numpy() (ivy.container.Container method)</a>
 </li>
-      </ul></li>
-      <li><a href="container.html#ivy.container.Container.to_numpy">to_numpy() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.to_numpy">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.to_raw">to_raw() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.to_raw">to_raw() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.to_raw">[1]</a>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.total_mem_on_dev">total_mem_on_dev() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/total_mem_on_dev.html#ivy.functional.ivy.device.total_mem_on_dev">[1]</a>
 </li>
-      <li><a href="functional/ivy/array_api/creation_functions.html#ivy.functional.ivy.array_api.creation_functions.tril">tril() (in module ivy.functional.ivy.array_api.creation_functions)</a>, <a href="functional/ivy/array_api/creation_functions/tril.html#ivy.functional.ivy.array_api.creation_functions.tril">[1]</a>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.tpu_is_available">tpu_is_available() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/tpu_is_available.html#ivy.functional.ivy.device.tpu_is_available">[1]</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.trim_key">trim_key() (ivy.container.Container static method)</a>, <a href="container/Container.html#ivy.container.Container.trim_key">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.trim_key">trim_key() (ivy.container.Container static method)</a>
 </li>
       <li><a href="framework_handler.html#ivy.framework_handler.try_import_ivy_jax">try_import_ivy_jax() (in module ivy.framework_handler)</a>, <a href="framework_handler/try_import_ivy_jax.html#ivy.framework_handler.try_import_ivy_jax">[1]</a>
 </li>
@@ -999,7 +887,11 @@
 </li>
       <li><a href="framework_handler.html#ivy.framework_handler.try_import_ivy_torch">try_import_ivy_torch() (in module ivy.framework_handler)</a>, <a href="framework_handler/try_import_ivy_torch.html#ivy.framework_handler.try_import_ivy_torch">[1]</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.try_kc">try_kc() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.try_kc">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.try_kc">try_kc() (ivy.container.Container method)</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.DevManager.tune_step">tune_step() (ivy.functional.ivy.device.DevManager property)</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.DevManager.tuned">tuned() (ivy.functional.ivy.device.DevManager property)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -1007,17 +899,21 @@
 <h2 id="U">U</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.unify">unify() (ivy.container.Container static method)</a>, <a href="container/Container.html#ivy.container.Container.unify">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.unify">unify() (ivy.container.Container static method)</a>
 </li>
       <li><a href="debugger.html#ivy.debugger.unset_debug_mode">unset_debug_mode() (in module ivy.debugger)</a>, <a href="debugger/unset_debug_mode.html#ivy.debugger.unset_debug_mode">[1]</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.unset_default_device">unset_default_device() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/unset_default_device.html#ivy.functional.ivy.device.unset_default_device">[1]</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="framework_handler.html#ivy.framework_handler.unset_framework">unset_framework() (in module ivy.framework_handler)</a>, <a href="framework_handler/unset_framework.html#ivy.framework_handler.unset_framework">[1]</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.unstack">unstack() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.unstack">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.unstack">unstack() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.update_config">update_config() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.update_config">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.update_config">update_config() (ivy.container.Container method)</a>
+</li>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.used_mem_on_dev">used_mem_on_dev() (in module ivy.functional.ivy.device)</a>, <a href="functional/ivy/device/used_mem_on_dev.html#ivy.functional.ivy.device.used_mem_on_dev">[1]</a>
 </li>
   </ul></td>
 </tr></table>
@@ -1025,7 +921,13 @@
 <h2 id="V">V</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.vector_norm">vector_norm() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.vector_norm">[1]</a>
+      <li><a href="functional/ivy/device.html#ivy.functional.ivy.device.MultiDevItem.values">values() (ivy.functional.ivy.device.MultiDevItem method)</a>, <a href="functional/ivy/device/MultiDevItem.html#ivy.functional.ivy.device.MultiDevItem.values">[1]</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="container/Container.html#ivy.container.Container.var">var() (ivy.container.Container method)</a>
+</li>
+      <li><a href="container/Container.html#ivy.container.Container.vector_norm">vector_norm() (ivy.container.Container method)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -1033,29 +935,21 @@
 <h2 id="W">W</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.with_default_key_color">with_default_key_color() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.with_default_key_color">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.with_default_key_color">with_default_key_color() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.with_entries_as_lists">with_entries_as_lists() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.with_entries_as_lists">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.with_entries_as_lists">with_entries_as_lists() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.with_ivy_backend">with_ivy_backend() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.with_ivy_backend">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.with_ivy_backend">with_ivy_backend() (ivy.container.Container method)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="container.html#ivy.container.Container.with_key_length_limit">with_key_length_limit() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.with_key_length_limit">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.with_key_length_limit">with_key_length_limit() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.with_print_indent">with_print_indent() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.with_print_indent">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.with_print_indent">with_print_indent() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.with_print_limit">with_print_limit() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.with_print_limit">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.with_print_limit">with_print_limit() (ivy.container.Container method)</a>
 </li>
-      <li><a href="container.html#ivy.container.Container.with_print_line_spacing">with_print_line_spacing() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.with_print_line_spacing">[1]</a>
-</li>
-  </ul></td>
-</tr></table>
-
-<h2 id="Z">Z</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="functional/ivy/array_api/creation_functions.html#ivy.functional.ivy.array_api.creation_functions.zeros">zeros() (in module ivy.functional.ivy.array_api.creation_functions)</a>, <a href="functional/ivy/array_api/creation_functions/zeros.html#ivy.functional.ivy.array_api.creation_functions.zeros">[1]</a>
+      <li><a href="container/Container.html#ivy.container.Container.with_print_line_spacing">with_print_line_spacing() (ivy.container.Container method)</a>
 </li>
   </ul></td>
 </tr></table>
